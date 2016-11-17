@@ -4,8 +4,10 @@ Scrapes https://github.com/postlight/awesome-cms, which scrapes Github for a cur
 
 ## Installation
 
-- `pip install chalice`
 - `git clone https://github.com/tomdyson/awesome-cms-scraper.git`
+- `cd awesome-cms-scraper`
+- `pip install chalice`
+- `pip install -r requirements.txt`
 - add [AWS credentials](https://github.com/awslabs/chalice#credentials) if you haven't already
 - try it out: `chalice local`
 - deploy: `chalice deploy`
